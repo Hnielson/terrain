@@ -1,0 +1,15 @@
+To avoid needing copies of glut32.dll, glut32.lib, and glut.h in every OpenGL project directory:
+
+Run the "Visual Studio Command Prompt." 
+	(Under "Start / All Programs / Microsoft Visual Studio 2010 / Visual Studio Tools").
+type the command "set"
+It will list all the environment variables.
+Note where VCINSTALLDIR (not VSINSTALLDIR) is set to.
+	Ex: "C:\Program Files\Microsoft Visual Studio 10.0\VC\"
+	or: "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\"
+Put glut32.dll in the bin subdirectory
+Put glut32.lib in the lib subdirectory.
+Put glut.h in the include subdirectory.
+
+Note: You must have administrator privileges.
+
